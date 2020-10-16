@@ -26,17 +26,15 @@ import time
 
 import json - make data visible in Python
 
-import csv - import data from cities.csv and created data frame
+import csv - import data from cities.csv and created city_weather_df
 
-
-Utilized Panda functions recently learned in class:
-
+import linregress - included regression line for each northern/southern hemisphere scatter plot
 
 # WeatherPy Conclusion:
 
-1. Of the total 576 Heroes of Pymoli players, 84.03% were male players and 14.06% were female players. This is a large reason there is a higher Total Purchase Value from Male players over Female players.
+1. Humidity (%) had the highest correlation to Latitude amongst the other weather attributes. In general, as the latitude increased the Humidity (%) increased.
 
-2. The item name 'Final Critic' was the most popular item and the most profitable item in Heroes of Pymoli. It has a purchase count of 13 and has the highest Average Purchase Price among the other items.
+2. Separating the data into northern and southern hemispheres made it clearer and the scatter plots were easier to understand. The Northern Max Temp vs Latitude regression showed that by increasing the latitude from 0 degrees the temperature decreased. The Southern Max Temp vs Latitude regression showed that by increasing the latitude from -60 degrees the temperature increased. This holds true that as you get farther from 0 degrees latitude (equator) the temperature is lower and the closer you are to 0 degrees latitude the temperature is higher.
 
 3. According to Age Demographics, age group from 20 to 24 had the highest count and percentage of players at 44.79%. The second highest age group was 15 to 19 with percentage of players at 18.57%. The positive relationship between number of players and Total Purchase Value is also evident in Purchasing Analysis (Age) data frame. Players in the 20 to 24 age group had the highest Total Purchase Value among the other groups but the highest Average Purchase Price was for age group 35 to 39.
 
