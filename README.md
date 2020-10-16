@@ -4,11 +4,11 @@ Created two notebooks in Jupyter by performing API calls to visualize weather in
 
 Other dependencies used at startup:
 
-OpenWeatherMap API
+OpenWeatherMap API:
 
 Base URL for API Call: "http://api.openweathermap.org/data/2.5/weather?q="
 
-Google Places API
+Google Places API:
 
 Base URL for API Call: "https://maps.googleapis.com/maps/api/place/nearbysearch/json"
 
