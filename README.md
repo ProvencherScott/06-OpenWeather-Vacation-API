@@ -20,13 +20,13 @@ import numpy as np
 
 import requests - used to collect information from the base URL and API key by city_id;  {base_url + city + "&appid=" + weather_api_key}
 
-import matplotlib - create scatter plots of data collected from API calls; latitude vs temperature, latitude vs humidity, latitude vs cloudiness; latitude vs wind speed
+import matplotlib - created scatter plots of data collected from API calls; latitude vs temperature, latitude vs humidity, latitude vs cloudiness; latitude vs wind speed
 
 import time
 
 import json - make data visible in Python
 
-import csv - import data from cities.csv and created city_weather_df
+import csv - imported data from cities.csv and created city_weather_df
 
 import linregress - included regression line for each northern/southern hemisphere scatter plot
 
