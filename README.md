@@ -36,7 +36,7 @@ import linregress - included regression line for each northern/southern hemisphe
 
 2. Separating the data into northern and southern hemispheres made it clearer and the scatter plots were easier to understand. The Northern Max Temp vs Latitude regression showed that by increasing the latitude from 0 degrees the temperature decreased. The Southern Max Temp vs Latitude regression showed that by increasing the latitude from -60 degrees the temperature increased. This holds true that as you get farther from 0 degrees latitude (equator) the temperature is lower and the closer you are to 0 degrees latitude the temperature is higher.
 
-3. Comparing the Northern and Southern hemispheres for Cloudiness (%), the slope of the regressions looked very similar. Both regression lines show a positive slope and the statement holds true, as you increase the latitude the cloudiness (%) increases. The Northern Cloudiness vs Latitude plot has an r value of 0.112 and the Southern Cloudiness vs Latitude plot has an r value of 0.115. 
+3. Comparing the Northern and Southern hemispheres for Cloudiness (%), the slope of the regressions looked very similar. Both regression lines show a positive slope and the statement holds true, as the latitude increases the cloudiness (%) increases. The Northern Cloudiness vs Latitude plot has an r value of 0.112 and the Southern Cloudiness vs Latitude plot has an r value of 0.115. 
 
 # VacationPy Conclusion:
 
