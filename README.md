@@ -1,6 +1,6 @@
 # Python API Homework - What's the Weather Like?
 
-Created two notebooks in Jupyter by performing API calls to visualize weather information for cities across the globe using two URL. The list of city information was stored as Json and output into csv file, cities.csv, found in the starter_code folder. Using the data from the cities.csv I was able to create data frames related to weather attribute; such as max temp, humidity, cloudiness and wind speed for over 500 cities. Also, I installed citypy from citypy Python Library which let me incorporate ranges for latitude and longitude and find the city name closest to the specified coordinates. Importing citypy was critical for the analysis because it let me observe each city's weather attribute in relationship to their latitude and longitude and create scatter plots for each weather attribute. 
+Created two notebooks in Jupyter by performing API calls to visualize weather information for cities across the globe using two URL. The list of city information was stored as Json and output into csv file, cities.csv, found in the starter_code folder. Using the data from the cities.csv I was able to create data frames (city_weather_df) related to weather attribute; such as max temp, humidity, cloudiness and wind speed for over 500 cities. Also, I installed citypy from citypy Python Library which let me incorporate ranges for latitude and longitude and find the city name closest to the specified coordinates. Importing citypy was critical for the analysis because it let me observe each city's weather attribute in relationship to their latitude and longitude and create scatter plots for each weather attribute. Cities with humidity greater than 100% were removed from city_weather_df.
 
 Other dependencies used at startup:
 
@@ -40,7 +40,17 @@ import linregress - included regression line for each northern/southern hemisphe
 
 # VacationPy Conclusion:
 
+Created a heatmap by using the api key from Google Places. The heatmap showed the humidity (%) for each city shown on the vacation_data in relation to latitude and longitude. The added heat layer shows the lat/lng area with very high humidity (%) as a dark red point on the map, areas with less humidity show as a yellow/orange point on the map and areas with hardly any humidity show as a green point on the map. The vacation_data used for this analysis was pulled from the city_weather data frame which, was exported to a csv.file.
 
+Hotel_df only showed 15 hotels because it was filtered to only show hotels located in lat/lng area that meet these conditions:
+
+A max temperature lower than 80 degrees but higher than 70.
+
+Wind speed less than 10 mph.
+
+Zero cloudiness.
+
+I successfully added a marker layer to the heatmap which shows the location of the hotel on the map, the name of the hotel, the name of the city and the name of the country.
 
 
 
